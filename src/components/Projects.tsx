@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { ExternalLink, Code2 } from 'lucide-react';
 
 const GithubIcon = ({ size = 24 }: { size?: number }) => (
@@ -59,12 +59,12 @@ const projects = [
   },
 ];
 
-const container = {
+const container: Variants = {
   hidden: {},
   show: { transition: { staggerChildren: 0.15 } },
 };
 
-const card = {
+const card: Variants = {
   hidden: { opacity: 0, y: 40 },
   show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } },
 };
