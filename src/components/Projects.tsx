@@ -57,6 +57,24 @@ const projects = [
     github: 'https://github.com/ishitatiwari1517/ojt_project_repo',
     color: '#4ade80',
   },
+  {
+    title: 'VedaAI - AI Academic Workspace',
+    description:
+      'Production-ready, AI-powered academic workspace. Features a Next.js/TypeScript frontend, multi-LLM orchestration, and RAG data architecture.',
+    tech: ['Next.js', 'TypeScript', 'PostgreSQL'],
+    live: 'https://vedaai-sage.vercel.app/assignments',
+    github: 'https://github.com/ishitatiwari1517/VedaAI',
+    color: '#fbbf24',
+  },
+  {
+    title: 'VisionVoice - AI Narration Agent',
+    description:
+      "AI agent deployed on Render providing real-time narration of the user's visual environment using the Gemini Flash API.",
+    tech: ['Node.js', 'Gemini API', 'Render'],
+    live: 'https://voice-agent-xa06.onrender.com',
+    github: 'https://github.com/ishitatiwari1517/voice_agent',
+    color: '#3b82f6',
+  },
 ];
 
 const container: Variants = {
